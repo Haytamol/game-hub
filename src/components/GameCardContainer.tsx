@@ -1,5 +1,6 @@
 import { Box } from "@chakra-ui/react";
 import { ReactNode } from "react";
+import App from "../App";
 
 interface Props {
   children: ReactNode;
@@ -13,3 +14,4 @@ const GameCardContainer = ({ children }: Props) => {
 };
 
 export default GameCardContainer;
+App
